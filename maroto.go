@@ -45,6 +45,11 @@ func (m *Maroto) GetCurrentConfig() *entity.Config {
 	return m.config
 }
 
+// GetProvider returns the underlying provider for advanced drawing operations
+func (m *Maroto) GetProvider() core.Provider {
+	return m.provider
+}
+
 // New is responsible for create a new instance of core.Maroto.
 // It's optional to provide an *entity.Config with customizations
 // those customization are created by using the config.Builder.

@@ -21,6 +21,8 @@ type Maroto interface {
 	AddPages(pages ...Page)
 	GetStructure() *node.Node[Structure]
 	Generate() (Document, error)
+	// Extension: Access to underlying provider for advanced drawing operations
+	GetProvider() Provider
 }
 
 // Document is the interface that wraps the basic methods of a document.

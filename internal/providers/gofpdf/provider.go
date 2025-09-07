@@ -190,6 +190,11 @@ func (g *provider) SetMetadata(metadata *entity.Metadata) {
 	}
 }
 
+// GetFpdf returns the underlying fpdf interface for direct drawing operations
+func (g *provider) GetFpdf() interface{} {
+	return g.fpdf
+}
+
 // GetDimensionsByImage is responsible for obtaining the dimensions of an image
 // If the image cannot be loaded, an error is returned
 func (g *provider) GetDimensionsByImage(file string) (*entity.Dimensions, error) {

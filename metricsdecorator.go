@@ -38,6 +38,11 @@ func (m *MetricsDecorator) GetCurrentConfig() *entity.Config {
 	return m.inner.GetCurrentConfig()
 }
 
+// GetProvider decorates the GetProvider method of maroto instance.
+func (m *MetricsDecorator) GetProvider() core.Provider {
+	return m.inner.GetProvider()
+}
+
 // Generate decorates the Generate method of maroto instance.
 func (m *MetricsDecorator) Generate() (core.Document, error) {
 	var document core.Document
