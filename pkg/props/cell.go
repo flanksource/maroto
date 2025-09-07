@@ -1,8 +1,8 @@
 package props
 
 import (
-	"github.com/johnfercher/maroto/v2/pkg/consts/border"
-	"github.com/johnfercher/maroto/v2/pkg/consts/linestyle"
+	"github.com/flanksource/maroto/v2/pkg/consts/border"
+	"github.com/flanksource/maroto/v2/pkg/consts/linestyle"
 )
 
 // Cell is the representation of a cell in the grid system.

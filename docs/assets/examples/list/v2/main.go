@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/johnfercher/maroto/v2"
+	"github.com/flanksource/maroto/v2"
 
-	"github.com/johnfercher/maroto/v2/pkg/components/list"
-	"github.com/johnfercher/maroto/v2/pkg/components/row"
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontstyle"
-	"github.com/johnfercher/maroto/v2/pkg/core"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/flanksource/maroto/v2/pkg/components/list"
+	"github.com/flanksource/maroto/v2/pkg/components/row"
+	"github.com/flanksource/maroto/v2/pkg/consts/fontstyle"
+	"github.com/flanksource/maroto/v2/pkg/core"
+	"github.com/flanksource/maroto/v2/pkg/props"
 
-	"github.com/johnfercher/maroto/v2/pkg/components/text"
+	"github.com/flanksource/maroto/v2/pkg/components/text"
 )
 
 var background = &props.Color{

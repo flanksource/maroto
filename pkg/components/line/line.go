@@ -4,11 +4,11 @@ package line
 import (
 	"github.com/johnfercher/go-tree/node"
 
-	"github.com/johnfercher/maroto/v2/pkg/components/col"
-	"github.com/johnfercher/maroto/v2/pkg/components/row"
-	"github.com/johnfercher/maroto/v2/pkg/core"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/flanksource/maroto/v2/pkg/components/col"
+	"github.com/flanksource/maroto/v2/pkg/components/row"
+	"github.com/flanksource/maroto/v2/pkg/core"
+	"github.com/flanksource/maroto/v2/pkg/core/entity"
+	"github.com/flanksource/maroto/v2/pkg/props"
 )
 
 type Line struct {

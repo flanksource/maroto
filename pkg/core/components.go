@@ -2,10 +2,10 @@ package core
 
 import (
 	"github.com/google/uuid"
-	"github.com/johnfercher/maroto/v2/pkg/consts/extension"
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontstyle"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/flanksource/maroto/v2/pkg/consts/extension"
+	"github.com/flanksource/maroto/v2/pkg/consts/fontstyle"
+	"github.com/flanksource/maroto/v2/pkg/core/entity"
+	"github.com/flanksource/maroto/v2/pkg/props"
 	"github.com/jung-kurt/gofpdf"
 )
 

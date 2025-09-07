@@ -5,13 +5,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/johnfercher/maroto/v2/internal/fixture"
-	"github.com/johnfercher/maroto/v2/mocks"
-	"github.com/johnfercher/maroto/v2/pkg/components/code"
-	"github.com/johnfercher/maroto/v2/pkg/components/col"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
-	"github.com/johnfercher/maroto/v2/pkg/props"
-	"github.com/johnfercher/maroto/v2/pkg/test"
+	"github.com/flanksource/maroto/v2/internal/fixture"
+	"github.com/flanksource/maroto/v2/mocks"
+	"github.com/flanksource/maroto/v2/pkg/components/code"
+	"github.com/flanksource/maroto/v2/pkg/components/col"
+	"github.com/flanksource/maroto/v2/pkg/core/entity"
+	"github.com/flanksource/maroto/v2/pkg/props"
+	"github.com/flanksource/maroto/v2/pkg/test"
 )
 
 func TestNew(t *testing.T) {

@@ -3,11 +3,11 @@ package list_test
 import (
 	"fmt"
 
-	"github.com/johnfercher/maroto/v2"
-	"github.com/johnfercher/maroto/v2/pkg/components/list"
-	"github.com/johnfercher/maroto/v2/pkg/components/row"
-	"github.com/johnfercher/maroto/v2/pkg/components/text"
-	"github.com/johnfercher/maroto/v2/pkg/core"
+	"github.com/flanksource/maroto/v2"
+	"github.com/flanksource/maroto/v2/pkg/components/list"
+	"github.com/flanksource/maroto/v2/pkg/components/row"
+	"github.com/flanksource/maroto/v2/pkg/components/text"
+	"github.com/flanksource/maroto/v2/pkg/core"
 )
 
 // Obj implements Listable interface

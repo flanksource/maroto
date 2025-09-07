@@ -3,10 +3,10 @@ package image_test
 import (
 	"os"
 
-	"github.com/johnfercher/maroto/v2"
-	"github.com/johnfercher/maroto/v2/pkg/components/col"
-	"github.com/johnfercher/maroto/v2/pkg/components/image"
-	"github.com/johnfercher/maroto/v2/pkg/consts/extension"
+	"github.com/flanksource/maroto/v2"
+	"github.com/flanksource/maroto/v2/pkg/components/col"
+	"github.com/flanksource/maroto/v2/pkg/components/image"
+	"github.com/flanksource/maroto/v2/pkg/consts/extension"
 )
 
 // ExampleNewFromBytes demonstrates how to create an image component reading bytes.

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/johnfercher/maroto/v2/internal/providers/gofpdf"
+	"github.com/flanksource/maroto/v2/internal/providers/gofpdf"
 
-	"github.com/johnfercher/maroto/v2/mocks"
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontfamily"
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontstyle"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/flanksource/maroto/v2/mocks"
+	"github.com/flanksource/maroto/v2/pkg/consts/fontfamily"
+	"github.com/flanksource/maroto/v2/pkg/consts/fontstyle"
+	"github.com/flanksource/maroto/v2/pkg/props"
 	"github.com/stretchr/testify/assert"
 )
 

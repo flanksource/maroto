@@ -4,9 +4,9 @@ package core
 import (
 	"github.com/johnfercher/go-tree/node"
 
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
-	"github.com/johnfercher/maroto/v2/pkg/metrics"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/flanksource/maroto/v2/pkg/core/entity"
+	"github.com/flanksource/maroto/v2/pkg/metrics"
+	"github.com/flanksource/maroto/v2/pkg/props"
 )
 
 // Maroto is the interface that wraps the basic methods of maroto.

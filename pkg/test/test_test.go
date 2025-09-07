@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/johnfercher/maroto/v2/internal/fixture"
+	"github.com/flanksource/maroto/v2/internal/fixture"
 )
 
 const (

@@ -1,11 +1,11 @@
 package gofpdf
 
 import (
-	"github.com/johnfercher/maroto/v2/internal/providers/gofpdf/gofpdfwrapper"
-	"github.com/johnfercher/maroto/v2/pkg/consts/linestyle"
-	"github.com/johnfercher/maroto/v2/pkg/consts/orientation"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/flanksource/maroto/v2/internal/providers/gofpdf/gofpdfwrapper"
+	"github.com/flanksource/maroto/v2/pkg/consts/linestyle"
+	"github.com/flanksource/maroto/v2/pkg/consts/orientation"
+	"github.com/flanksource/maroto/v2/pkg/core/entity"
+	"github.com/flanksource/maroto/v2/pkg/props"
 )
 
 type line struct {

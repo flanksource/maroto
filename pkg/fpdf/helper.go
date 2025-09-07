@@ -3,8 +3,8 @@
 package fpdf
 
 import (
-	"github.com/johnfercher/maroto/v2/internal/providers/gofpdf/gofpdfwrapper"
-	"github.com/johnfercher/maroto/v2/pkg/core"
+	"github.com/flanksource/maroto/v2/internal/providers/gofpdf/gofpdfwrapper"
+	"github.com/flanksource/maroto/v2/pkg/core"
 )
 
 // GetFpdf safely extracts the underlying gofpdfwrapper.Fpdf interface from a Provider.

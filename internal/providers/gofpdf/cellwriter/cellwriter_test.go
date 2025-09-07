@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/johnfercher/maroto/v2/internal/fixture"
-	"github.com/johnfercher/maroto/v2/mocks"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
+	"github.com/flanksource/maroto/v2/internal/fixture"
+	"github.com/flanksource/maroto/v2/mocks"
+	"github.com/flanksource/maroto/v2/pkg/core/entity"
 
-	"github.com/johnfercher/maroto/v2/internal/providers/gofpdf/cellwriter"
+	"github.com/flanksource/maroto/v2/internal/providers/gofpdf/cellwriter"
 
 	"github.com/stretchr/testify/assert"
 )

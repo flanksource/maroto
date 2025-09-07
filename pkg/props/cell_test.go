@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/johnfercher/maroto/v2/internal/fixture"
-	"github.com/johnfercher/maroto/v2/pkg/consts/border"
-	"github.com/johnfercher/maroto/v2/pkg/consts/linestyle"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/flanksource/maroto/v2/internal/fixture"
+	"github.com/flanksource/maroto/v2/pkg/consts/border"
+	"github.com/flanksource/maroto/v2/pkg/consts/linestyle"
+	"github.com/flanksource/maroto/v2/pkg/props"
 )
 
 func TestCell_ToMap(t *testing.T) {

@@ -3,13 +3,13 @@ package gofpdf
 import (
 	"github.com/jung-kurt/gofpdf"
 
-	"github.com/johnfercher/maroto/v2/internal/cache"
-	"github.com/johnfercher/maroto/v2/internal/code"
-	"github.com/johnfercher/maroto/v2/internal/math"
-	"github.com/johnfercher/maroto/v2/internal/providers/gofpdf/cellwriter"
-	"github.com/johnfercher/maroto/v2/internal/providers/gofpdf/gofpdfwrapper"
-	"github.com/johnfercher/maroto/v2/pkg/core"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
+	"github.com/flanksource/maroto/v2/internal/cache"
+	"github.com/flanksource/maroto/v2/internal/code"
+	"github.com/flanksource/maroto/v2/internal/math"
+	"github.com/flanksource/maroto/v2/internal/providers/gofpdf/cellwriter"
+	"github.com/flanksource/maroto/v2/internal/providers/gofpdf/gofpdfwrapper"
+	"github.com/flanksource/maroto/v2/pkg/core"
+	"github.com/flanksource/maroto/v2/pkg/core/entity"
 )
 
 // Dependencies is the dependencies provider for gofpdf

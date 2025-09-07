@@ -1,21 +1,21 @@
 package main
 
 import (
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontstyle"
+	"github.com/flanksource/maroto/v2/pkg/consts/fontstyle"
 	"log"
 
-	"github.com/johnfercher/maroto/v2/pkg/core"
+	"github.com/flanksource/maroto/v2/pkg/core"
 
-	"github.com/johnfercher/maroto/v2"
+	"github.com/flanksource/maroto/v2"
 
-	"github.com/johnfercher/maroto/v2/pkg/consts/breakline"
+	"github.com/flanksource/maroto/v2/pkg/consts/breakline"
 
-	"github.com/johnfercher/maroto/v2/pkg/components/text"
+	"github.com/flanksource/maroto/v2/pkg/components/text"
 
-	"github.com/johnfercher/maroto/v2/pkg/consts/align"
+	"github.com/flanksource/maroto/v2/pkg/consts/align"
 
-	"github.com/johnfercher/maroto/v2/pkg/config"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/flanksource/maroto/v2/pkg/config"
+	"github.com/flanksource/maroto/v2/pkg/props"
 )
 
 func main() {
